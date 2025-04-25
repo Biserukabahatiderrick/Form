@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous">
+      <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="images/illustration.svg" alt="illustration">
+            <img  class="logo"  src="images/logo.svg" alt="logo">
+        </div>
+       
+        <form id="form">
+            <div class="title">Get started</div>
+            <div class="box ">
+                <label class="use" for="username">username</label>
+                <i class="fas fa-user"></i>
+                <input class="inputs" type="text" id="username" placeholder="marie claire" required>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div class="box">
+            <label class="use" for="email">email</label>
+            <i class="fas fa-envelope"></i>
+            <input  class="inputs" type="text" id="email" placeholder="claire@gmail.com" required>
+            <i class="fas fa-exclamation-circle failure-icon"></i> 
+            <i class="far fa-check-circle success-icon"></i>
+            <div class="error"></div> 
+            </div> 
+
+            <div class="box">
+                <label class="use" for="password">password</label>
+                <i class="fas fa-lock"></i>
+                <input class="inputs" type="password" id="password" placeholder="password" required>
+                <i class="fas fa-exclamation-circle failure-icon"></i> 
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
