@@ -48,16 +48,38 @@ body{
     cursor: pointer;
     background-color: aqua;
 }
-.image{
-    height: auto;
+.log{
+    text-decoration: none;
+    text-transform: capitalize;
 }
-.logo{
-    position: absolute;
-    position :1px;
+.butto{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
-.words-txt{
-    text-align: end;
+.google,
+.facebook{
+    padding: 10px 5px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
+.facebook{
+    background-color: #3b5998;
+    color: white;
+}
+.or{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
 form div i{
     position: absolute;
     padding-left: 10px;
@@ -72,4 +94,15 @@ form div i{
 }
 .inputs::placeholder{
     text-align:left ;
+}
+.image{
+   background-color: tomato;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    padding-bottom: 12px;
+    background-image: url('images/illustration.svg');
+}
+.text{
+   
 }
